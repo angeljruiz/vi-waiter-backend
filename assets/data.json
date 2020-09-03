@@ -1,0 +1,235 @@
+[
+  {
+    "name": "Dinner",
+    "availability": "everyday",
+    "sections": [
+      {
+        "name": "Combo Entrees",
+        "items": [
+          {
+            "name": "Angus Chop Steak Combo",
+            "description": "Served with two sides, a side salad and a drink.",
+            "price": "1539",
+            "sections": [
+              {
+                "name": "Side #1",
+                "required": "false",
+                "maxSelection": "1",
+                "ingredients": [
+                  { "name": "Mashed Potatoes" },
+                  { "name": "Green Beans" },
+                  { "name": "Corn" },
+                  { "name": "Spinach" },
+                  { "name": "Broccoli", "price": "100" },
+                  { "name": "Cabbage" }
+                ]
+              },
+              {
+                "name": "Side #2",
+                "required": "true",
+                "maxSelection": "1",
+                "ingredients": [
+                  { "name": "Mashed Potatoes" },
+                  { "name": "Green Beans" },
+                  { "name": "Corn" },
+                  { "name": "Spinach" },
+                  { "name": "Broccoli", "price": "100" },
+                  { "name": "Cabbage" }
+                ]
+              },
+              {
+                "name": "Choice of Gravy",
+                "required": "true",
+                "multiple": "false",
+                "ingredients": [
+                  { "name": "Cream Gravy" },
+                  { "name": "Brown Gravy" },
+                  { "name": "Natural Gravy" }
+                ]
+              },
+              {
+                "name": "Condiments",
+                "required": "true",
+                "maxSelection": "3",
+                "ingredients": [
+                  { "name": "Tartar sauce" },
+                  { "name": "Cocktail Sauce" },
+                  { "name": "AI Sauce" },
+                  { "name": "Hot Sauce" },
+                  { "name": "Ketchup" },
+                  { "name": "Sugar", "price": "100" }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Chicken Fried Steak Combo",
+            "description": "Served with two sides, a side salad and a drink.",
+            "price": "1689",
+            "sections": [
+              {
+                "name": "Side #1",
+                "required": "true",
+                "maxSelection": "1",
+                "ingredients": [
+                  { "name": "Mashed Potatoes" },
+                  { "name": "Green Beans" },
+                  { "name": "Corn" },
+                  { "name": "Spinach" },
+                  { "name": "Broccoli", "price": "100" },
+                  { "name": "Cabbage" }
+                ]
+              },
+              {
+                "name": "Side #2",
+                "required": "true",
+                "maxSelection": "1",
+                "ingredients": [
+                  { "name": "Mashed Potatoes" },
+                  { "name": "Green Beans" },
+                  { "name": "Corn" },
+                  { "name": "Spinach" },
+                  { "name": "Broccoli", "price": "100" },
+                  { "name": "Cabbage" }
+                ]
+              },
+              {
+                "name": "Choice of Gravy",
+                "required": "true",
+                "multiple": "false",
+                "ingredients": [
+                  { "name": "Cream Gravy" },
+                  { "name": "Brown Gravy" },
+                  { "name": "Natural Gravy" }
+                ]
+              },
+              {
+                "name": "Condiments",
+                "required": "true",
+                "maxSelection": "3",
+                "ingredients": [
+                  { "name": "Tartar sauce" },
+                  { "name": "Cocktail Sauce" },
+                  { "name": "AI Sauce" },
+                  { "name": "Hot Sauce" },
+                  { "name": "Ketchup" },
+                  { "name": "Sugar", "price": "100" }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Liver and Onion Combo",
+            "description": "Served with two sides, a side salad and a drink.",
+            "price": "1539",
+            "sections": [
+              {
+                "name": "Side #1",
+                "required": "true",
+                "maxSelection": "1",
+                "ingredients": [
+                  { "name": "Mashed Potatoes" },
+                  { "name": "Green Beans" },
+                  { "name": "Corn" },
+                  { "name": "Spinach" },
+                  { "name": "Broccoli", "price": "100" },
+                  { "name": "Cabbage" }
+                ]
+              },
+              {
+                "name": "Side #2",
+                "required": "true",
+                "maxSelection": "1",
+                "ingredients": [
+                  { "name": "Mashed Potatoes" },
+                  { "name": "Green Beans" },
+                  { "name": "Corn" },
+                  { "name": "Spinach" },
+                  { "name": "Broccoli", "price": "100" },
+                  { "name": "Cabbage" }
+                ]
+              },
+              {
+                "name": "Choice of Gravy",
+                "required": "true",
+                "multiple": "false",
+                "ingredients": [
+                  { "name": "Cream Gravy" },
+                  { "name": "Brown Gravy" },
+                  { "name": "Natural Gravy" }
+                ]
+              },
+              {
+                "name": "Condiments",
+                "required": "false",
+                "maxSelection": "3",
+                "ingredients": [
+                  { "name": "Tartar sauce" },
+                  { "name": "Cocktail Sauce" },
+                  { "name": "AI Sauce" },
+                  { "name": "Hot Sauce" },
+                  { "name": "Ketchup" },
+                  { "name": "Sugar", "price": "100" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Most Popular",
+        "items": [
+          {
+            "name": "Sesame Chicken",
+            "description": "Sliced chicken breast marinated with a special batter, friend lightly, and sauteed with a special spicy sauce. Slighly crunchy and chewy. Garnished with sesame seeds.",
+            "price": "1100",
+            "sections": [
+              {
+                "name": "Choice of Rice",
+                "required": "true",
+                "maxSelection": "1",
+                "ingredients": [
+                  { "name": "Steamed Rice" },
+                  { "name": "Fried Rice", "price": "200" }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mandarin Grill Cantonese House Chow Mein",
+            "description": "Shrimp, chicken, and beef combined with fresh vegatables in a rich graby and served over thin egg noodles.",
+            "price": "1350",
+            "sections": [
+              {
+                "name": "Choice of Rice",
+                "required": "true",
+                "maxSelection": "1",
+                "ingredients": [
+                  { "name": "Steamed Rice" },
+                  { "name": "Fried Rice", "price": "200" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "name": "Gold Coast Coconut Shrimp",
+            "description": "Hand-dipped in batter, rolled in coconut and fried golden.",
+            "price": "1299",
+            "sections": []
+          },
+          {
+            "name": "Bloomin' Onion",
+            "description": "An Outback Original! Our special onion is hand-carved, cooked until golden and ready to dip into our spicy signature bloom sauce.",
+            "price": "949",
+            "sections": []
+          }
+        ]
+      }
+    ]
+  }
+]
