@@ -14,7 +14,7 @@
               {
                 "name": "Side #1",
                 "required": "false",
-                "maxSelection": "1",
+                "max_selectable": "1",
                 "ingredients": [
                   { "name": "Mashed Potatoes" },
                   { "name": "Green Beans" },
@@ -27,7 +27,7 @@
               {
                 "name": "Side #2",
                 "required": "true",
-                "maxSelection": "1",
+                "max_selectable": "1",
                 "ingredients": [
                   { "name": "Mashed Potatoes" },
                   { "name": "Green Beans" },
@@ -50,7 +50,7 @@
               {
                 "name": "Condiments",
                 "required": "true",
-                "maxSelection": "3",
+                "max_selectable": "3",
                 "ingredients": [
                   { "name": "Tartar sauce" },
                   { "name": "Cocktail Sauce" },
@@ -70,7 +70,7 @@
               {
                 "name": "Side #1",
                 "required": "true",
-                "maxSelection": "1",
+                "max_selectable": "1",
                 "ingredients": [
                   { "name": "Mashed Potatoes" },
                   { "name": "Green Beans" },
@@ -83,7 +83,7 @@
               {
                 "name": "Side #2",
                 "required": "true",
-                "maxSelection": "1",
+                "max_selectable": "1",
                 "ingredients": [
                   { "name": "Mashed Potatoes" },
                   { "name": "Green Beans" },
@@ -106,7 +106,7 @@
               {
                 "name": "Condiments",
                 "required": "true",
-                "maxSelection": "3",
+                "max_selectable": "3",
                 "ingredients": [
                   { "name": "Tartar sauce" },
                   { "name": "Cocktail Sauce" },
@@ -126,7 +126,7 @@
               {
                 "name": "Side #1",
                 "required": "true",
-                "maxSelection": "1",
+                "max_selectable": "1",
                 "ingredients": [
                   { "name": "Mashed Potatoes" },
                   { "name": "Green Beans" },
@@ -139,7 +139,7 @@
               {
                 "name": "Side #2",
                 "required": "true",
-                "maxSelection": "1",
+                "max_selectable": "1",
                 "ingredients": [
                   { "name": "Mashed Potatoes" },
                   { "name": "Green Beans" },
@@ -162,7 +162,7 @@
               {
                 "name": "Condiments",
                 "required": "false",
-                "maxSelection": "3",
+                "max_selectable": "3",
                 "ingredients": [
                   { "name": "Tartar sauce" },
                   { "name": "Cocktail Sauce" },
@@ -187,7 +187,7 @@
               {
                 "name": "Choice of Rice",
                 "required": "true",
-                "maxSelection": "1",
+                "max_selectable": "1",
                 "ingredients": [
                   { "name": "Steamed Rice" },
                   { "name": "Fried Rice", "price": "200" }
@@ -203,7 +203,7 @@
               {
                 "name": "Choice of Rice",
                 "required": "true",
-                "maxSelection": "1",
+                "max_selectable": "1",
                 "ingredients": [
                   { "name": "Steamed Rice" },
                   { "name": "Fried Rice", "price": "200" }
