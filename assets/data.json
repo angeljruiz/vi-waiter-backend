@@ -2,6 +2,7 @@
   {
     "name": "Dinner",
     "availability": "everyday",
+    "logo": "https://bates-ecommerce-bucket.s3.us-east-2.amazonaws.com/1848d737f07b620f05738c4e9ea37606.jpg",
     "sections": [
       {
         "name": "Combo Entrees",
@@ -9,6 +10,7 @@
           {
             "name": "Angus Chop Steak Combo",
             "description": "Served with two sides, a side salad and a drink.",
+            "image": "https://bates-ecommerce-bucket.s3.us-east-2.amazonaws.com/d1eef0ea08be276961d618f76d393a7e.jpg",
             "price": "1539",
             "sections": [
               {
@@ -51,6 +53,7 @@
                 "name": "Condiments",
                 "required": "true",
                 "max_selectable": "3",
+                "image": "https://bates-ecommerce-bucket.s3.us-east-2.amazonaws.com/d1eef0ea08be276961d618f76d393a7e.jpg",
                 "ingredients": [
                   { "name": "Tartar sauce" },
                   { "name": "Cocktail Sauce" },
